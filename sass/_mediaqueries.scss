@@ -1,0 +1,207 @@
+@media (max-width: 768px) {
+
+    /* BARRA DE NAVEGACION */
+
+    .escudos {
+        width: 768px;
+        height: 22px;
+        margin-left: 0px;
+    }
+    .nav {
+        width: 100%;
+        height: 60px;
+    }
+    .nav ul {
+        font-size: 16px;
+        gap: 35px;
+        margin-left: 220px;
+    }
+    .logoLetra {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .logoLPF {
+        width: 60px;
+        height: auto;
+    }
+    .ligaLetras {
+        width: 70px;
+        height: auto;
+    }
+
+    /* ESTADISTICAS */
+
+    .divEstadisticas {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        margin-top: 35px;
+    }
+    .divEstadisticas img {
+        width: 550px;
+        height: auto;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+    }
+    .logoFooter {
+        width: 100px;
+        height: auto;
+    }
+    .logoIg {
+        width: 30px;
+        height: auto;
+    }
+    .logoTwitter {
+        width: 30px;
+        height: auto;
+    }
+
+    /* CALENDARIO */
+
+    .divCalendario{
+        width: 100%;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .divCalendario img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* TABLA */
+
+    .tituloTabla {
+        width: 100%;
+        height: 95px;
+        margin-top: 25px;
+    }
+    .tituloTabla h2 {
+        font-size: 30px;
+    }
+    .tablasTabla {
+        margin-top: 30px;
+    }
+    .tablasTabla img {
+        width: 370px;
+        height: auto;
+    }
+    .tablaAnual {
+        margin-top: 30px;
+    }
+    .tablaAnual img {
+        width: 749px;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* BARRA DE NAVEGACION */
+    
+    .escudos {
+        width: 420px;
+        height: auto;
+        margin-left: -60px;
+    }
+    .nav {
+        width: 100%;
+        height: 50px;
+    }
+    .nav ul {
+        font-size: 10px;
+        gap: 8px;
+        margin-left: 53px;
+    }
+    .logoLetra {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .logoLPF {
+        width: 45px;
+        height: auto;
+    }
+    .ligaLetras {
+        width: 0px;
+        height: auto;
+    }
+
+        /* FOOTER */
+    
+        .footer {
+            width: 100%;
+            height: 80px;
+            margin-top: 30px;
+        }
+        .logoFooter {
+            width: 75px;
+            height: auto;
+        }
+        .logoIg {
+            width: 20px;
+            height: auto;
+        }
+        .logoTwitter {
+            width: 20px;
+            height: auto;
+        }
+
+    /* ESTADISTICAS */
+
+    .divEstadisticas {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .divEstadisticas img {
+        width: 270px;
+        height: auto;
+    }
+
+    /* CALENDARIO */
+
+    .divCalendario{
+        width: 100%;
+        margin-top: 30px;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+    .divCalendario img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* TABLA */
+
+    .tituloTabla {
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .tituloTabla h2 {
+        font-size: 20px;
+    }
+    .tablasTabla {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .tablasTabla img {
+        width: 300px;
+        height: auto;
+        align-self: center;
+    }
+    .tablaAnual {
+        margin-top: 20px;
+    }
+    .tablaAnual img {
+        width: 310px;
+        height: auto;
+    }
+}

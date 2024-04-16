@@ -1,0 +1,98 @@
+.tablasInicio {
+    display: flex;
+    flex-direction: column;
+}
+.tablasInicio img {
+    width: 338px;
+    height: 352px;
+    border: .125rem solid gray;
+    margin-top: 85px
+}
+.flexInicio {
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+.sectionInicio{
+    margin-top: 30px;
+    background-image: url(../assets/over.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    width: 950px;
+    height: 905px;
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 2fr 1fr
+}
+.noticiaPrincipal {
+    color: white;
+    margin-top: 30px;
+    margin-left: 38px;
+}
+.noticiaPrincipal img {
+    height: auto;
+    width: 485px
+}
+.noticiaPrincipal h1 {
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.noticiaPrincipal p {
+    font-size: 23px;
+    line-height: 1.2;
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-top: 20px;
+    margin-left: 9px
+}
+.noticiaSecundaria {
+    color: white;
+    margin-top: 30px;
+    margin-right: 38px;
+}
+.noticiaSecundaria img {
+    height: auto;
+    width: 350px
+}
+.noticiaSecundaria h2 {
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.noticiaSecundaria p {
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.noticiaSecundaria2 {
+    color: white;
+    margin-top: 10px;
+}
+.noticiaSecundaria2 h2 {
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.noticiaSecundaria2 p {
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.logoInicio img {
+    width: 15.4375rem;
+    height: auto;
+    margin-top: 250px;
+    margin-left: 155px;
+}
+.barraDePartidos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.barraDePartidos img {
+    width: 1099px;
+    height: 221px;
+}

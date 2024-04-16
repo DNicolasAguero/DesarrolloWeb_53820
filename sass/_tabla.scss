@@ -1,0 +1,34 @@
+.tituloTabla {
+    background-image: url(../assets/over.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    margin-top: 40px;
+}
+.tituloTabla h2 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.692);
+}
+.tablasTabla {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly
+}
+.tablasTabla img {
+    width: 654px;
+    height: 577px;
+    border: .125rem solid gray;
+}
+.tablaAnual {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.tablaAnual img {
+    width: 1321px;
+    border: .125rem solid gray;
+    height: 1104px
+}
