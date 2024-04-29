@@ -453,7 +453,7 @@
     
     .sectionInicio {
         width: 300px;
-        height: 600px;
+        height: 568px;
     }
     .noticiaPrincipal {
         margin-left: 10px;
@@ -506,29 +506,34 @@
     .noticiaSecundaria2 p {
         font-size: 10px;
         margin-top: 3px;
+        width: 110px;
     }
     .logoInicio img {
         position: absolute;
         margin-left: 20px;
-        margin-top: -60px;
+        margin-top: 110px;
         width: 150px;
         height: auto;
     }
     .tablasInicio {
-        flex-direction: row;
+        flex-direction: column;
+        margin-top: 535px;
+        margin-right: 215px;
+        gap: 250px;
+    }
+    .tablasInicio img {
         position: absolute;
-        margin-left: 3px;
-        margin-top: 935px;
-        gap: 20px;
+        width: 220px;
+        height: auto;
     }
     .barraDePartidos {
-        margin-top: 430px;
+        margin-top: 520px;
     }
     .barraDePartidos img {
-        width: 710px;
+        width: 300px;
         height: auto;
     }
     .espacioIndex {
-        height: 30px;
+        height: 0px;
     }
 }
