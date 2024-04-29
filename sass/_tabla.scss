@@ -20,7 +20,7 @@
 .tablasTabla img {
     width: 654px;
     height: 577px;
-    border: .125rem solid gray;
+    border: 1px solid gray;
 }
 .tablaAnual {
     display: flex;
@@ -29,6 +29,60 @@
 }
 .tablaAnual img {
     width: 1321px;
-    border: .125rem solid gray;
+    border: 1px solid gray;
     height: 1104px
+}
+.divsTabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divVerde {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(4, 104, 4);
+    margin-top: 30px;
+    width: 800px;
+    height: 60px;
+}
+.divVerde h3 {
+    color: white;
+    text-align: center;
+}
+.divVerdeClaro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(32, 148, 32);
+    width: 800px;
+    height: 60px;
+}
+.divVerdeClaro h3 {
+    color: white;
+    text-align: center;
+}
+.divAmarillo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 223, 67);
+    width: 800px;
+    height: 60px;
+}
+.divAmarillo h3 {
+    color: white;
+    text-align: center;
+}
+.divRojo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(223, 67, 67);
+    width: 800px;
+    height: 60px;
+}
+.divRojo h3 {
+    color: white;
+    text-align: center;
 }

@@ -38,6 +38,16 @@
     .divEstadisticas img {
         width: 550px;
         height: auto;
+        margin-right: 130px;
+    }
+    .estadisticasHatTrick img {
+        margin-left: 9px;
+        margin-top: -40px;
+        width: 750px;
+        height: auto;
+    }
+    .espacioVacio {
+        height: 310px;
     }
 
     /* FOOTER */
@@ -96,30 +106,170 @@
         width: 749px;
         height: auto;
     }
+
+    /* NOTICIAS */
+
+.sectionNoticias {
+    width: 750px;
+    height: 960px;
 }
+.sectionNoticias h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.divNoticias {
+    gap: 10px;
+    margin-left: 15px;
+}
+.divNoticias img {
+    width: 350px;
+    height: 295px;
+}
+.divNoticias p {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 23px;
+    width: 360px;
+}
+.divPNoticias p {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 5px;
+    width: 726px;
+    margin-left: 15px;
+}
+.imagenesNoticias {
+    margin-top: 5px;
+}
+.imagenesNoticias img {
+    width: 350px;
+    height: auto;
+}
+.noticiasP {
+    margin-top: 10px;
+}
+.noticiasP p {
+    font-size: 20px;
+    line-height: 23px;
+    width: 718px;
+}
+.sectionNoticias2 {
+    width: 750px;
+    height: 280px;
+    gap: 5px;
+}
+.sectionNoticias2 div {
+    width: 220px;
+}
+.sectionNoticias2 img {
+    width: 230px;
+    height: auto;
+}
+
+    /* INDEX */
+
+.sectionInicio {
+    width: 745px;
+}
+.noticiaPrincipal {
+    margin-left: 23px;
+    margin-top: 23px;
+}
+.noticiaPrincipal img {
+    width: 380px;
+    height: auto;
+}
+.noticiaPrincipal h1 {
+    font-size: 20px;
+    margin-right: 0;
+    margin-top: 10px;
+}
+.noticiaPrincipal p {
+    font-size: 17px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.noticiaSecundaria {
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.noticiaSecundaria img {
+    width: 300px;
+    height: auto;
+}
+.noticiaSecundaria h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.noticiaSecundaria p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+.noticiaSecundaria2 {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.noticiaSecundaria2 img {
+    width: 300px;
+    height: auto;
+}
+.noticiaSecundaria2 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.noticiaSecundaria2 p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+.logoInicio img {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.tablasInicio {
+    flex-direction: row;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 935px;
+    gap: 20px;
+}
+.barraDePartidos {
+    margin-top: 430px;
+}
+.barraDePartidos img {
+    width: 710px;
+    height: auto;
+}
+.espacioIndex {
+    height: 30px;
+}
+
+}
+
 
 @media (max-width: 320px) {
 
     /* BARRA DE NAVEGACION */
     
     .escudos {
-        height: 10px;
+        height: 9px;
     }
     .nav {
         width: 100%;
-        height: 45px;
+        height: 40px;
     }
     .nav ul {
-        font-size: 10px;
+        font-size: 11px;
         gap: 8px;
-        margin-left: 53px;
+        margin-left: 40px;
     }
     .logoLetra {
-        margin-top: 3px;
-        margin-left: 10px;
+        margin-top: 6px;
+        margin-left: 7px;
     }
     .logoLPF {
-        width: 45px;
+        width: 35px;
         height: auto;
     }
     .ligaLetras {
@@ -150,14 +300,22 @@
     /* ESTADISTICAS */
 
     .divEstadisticas {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-top: 20px;
+        gap: 15px;
+        margin-top: 15px;
     }
     .divEstadisticas img {
         width: 270px;
         height: auto;
+        margin-left: -449px;
+    }
+    .estadisticasHatTrick img {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 310px;
+        height: auto;
+    }
+    .espacioVacio {
+        height: 140px;
     }
 
     /* CALENDARIO */
@@ -199,5 +357,178 @@
     .tablaAnual img {
         width: 310px;
         height: auto;
+    }
+    .divsTabla {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .divsTabla h3 {
+        font-size: 12px;
+    }
+    .divVerde {
+        width: 300px;
+    }
+    .divVerdeClaro {
+        width: 300px;
+    }
+    .divAmarillo {
+        width: 300px;
+    }
+    .divRojo {
+        width: 300px;
+    }
+
+    /* NOTICIAS */
+
+    .sectionNoticias {
+        width: 300px;
+        height: 600px;
+    }
+    .sectionNoticias h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .divNoticias {
+        gap: 5px;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    .divNoticias img {
+        width: 130px;
+        height: 180px;
+    }
+    .divNoticias p {
+        font-size: 10px;
+        margin-top: 0;
+        line-height: 13px;
+        width: 150px;
+    }
+    .divPNoticias p {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 0px;
+        width: 280px;
+        margin-left: 0px;
+    }
+    .imagenesNoticias {
+        margin-top: 5px;
+    }
+    .imagenesNoticias img {
+        width: 140px;
+        height: auto;
+    }
+    .noticiasP {
+        margin-top: 5px;
+    }
+    .noticiasP p {
+        font-size: 10px;
+        line-height: 13px;
+        width: 280px;
+    }
+    .sectionNoticias2 {
+        width: 300px;
+        height: 180px;
+        gap: 1px;
+        margin-top: 20px;
+    }
+    .sectionNoticias2 div {
+        width: 270px;
+    }
+    .sectionNoticias2 img {
+        width: 93px;
+        height: auto;
+    }
+    .sectionNoticias2 h2 {
+        font-size: 13px;
+        margin-top: 5px;
+        width: 93px;
+    }
+    .sectionNoticias2 p {
+        font-size: 10px;
+        margin-top: 5px;
+        width: 93px;
+    }
+    
+        /* INDEX */
+    
+    .sectionInicio {
+        width: 300px;
+        height: 600px;
+    }
+    .noticiaPrincipal {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .noticiaPrincipal img {
+        width: 160px;
+        height: auto;
+    }
+    .noticiaPrincipal h1 {
+        font-size: 13px;
+        margin-right: 0;
+        margin-top: 3px;
+    }
+    .noticiaPrincipal p {
+        font-size: 10px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 3px;
+    }
+    .noticiaSecundaria {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 115px;
+    }
+    .noticiaSecundaria img {
+        width: 110px;
+        height: auto;
+    }
+    .noticiaSecundaria h2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    .noticiaSecundaria p {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .noticiaSecundaria2 {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .noticiaSecundaria2 img {
+        width: 110px;
+        height: auto;
+    }
+    .noticiaSecundaria2 h2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    .noticiaSecundaria2 p {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .logoInicio img {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -60px;
+        width: 150px;
+        height: auto;
+    }
+    .tablasInicio {
+        flex-direction: row;
+        position: absolute;
+        margin-left: 3px;
+        margin-top: 935px;
+        gap: 20px;
+    }
+    .barraDePartidos {
+        margin-top: 430px;
+    }
+    .barraDePartidos img {
+        width: 710px;
+        height: auto;
+    }
+    .espacioIndex {
+        height: 30px;
     }
 }

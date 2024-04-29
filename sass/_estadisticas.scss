@@ -1,12 +1,23 @@
 .divEstadisticas {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 30px;
     flex-wrap: wrap;
 }
 .divEstadisticas img {
-    width: 420px;
-    height: 549px;
-    border-radius: 18px;
-    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.425);
+    width: 437px;
+    height: auto;
+    filter: drop-shadow(3px 3px 3px #8080806c);
+}
+.estadisticasHatTrick {
+    margin-right: 900px;
+    margin-top: -40px;
+}
+.estadisticasHatTrick img {
+    width: 900px;
+    height: auto;
+    position: absolute;
+}
+.espacioVacio {
+    height: 350px;
 }
