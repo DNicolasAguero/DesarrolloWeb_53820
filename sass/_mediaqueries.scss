@@ -111,23 +111,25 @@
 
 .sectionNoticias {
     width: 750px;
-    height: 960px;
+    height: 1115px;
 }
 .sectionNoticias h2 {
     font-size: 40px;
     margin-top: 20px;
+    width: 750px;
 }
 .divNoticias {
     gap: 10px;
     margin-left: 15px;
+    margin-top: 10px;
 }
 .divNoticias img {
     width: 350px;
     height: 295px;
+    margin-top: 30px;
 }
 .divNoticias p {
     font-size: 20px;
-    margin-top: 0;
     line-height: 23px;
     width: 360px;
 }
@@ -155,7 +157,7 @@
 }
 .sectionNoticias2 {
     width: 750px;
-    height: 280px;
+    height: 310px;
     gap: 5px;
 }
 .sectionNoticias2 div {
@@ -382,11 +384,13 @@
 
     .sectionNoticias {
         width: 300px;
-        height: 600px;
+        height: 675px;
     }
     .sectionNoticias h2 {
         font-size: 15px;
         margin-top: 10px;
+        width: 300px;
+        margin-left: 9px;
     }
     .divNoticias {
         gap: 5px;
@@ -394,14 +398,15 @@
         margin-top: 8px;
     }
     .divNoticias img {
-        width: 130px;
-        height: 180px;
+        width: 150px;
+        height: 160px;
+        object-fit: cover;
     }
     .divNoticias p {
-        font-size: 10px;
+        font-size: 9px;
         margin-top: 0;
-        line-height: 13px;
-        width: 150px;
+        line-height: 11px;
+        width: 130px;
     }
     .divPNoticias p {
         font-size: 10px;
@@ -427,7 +432,7 @@
     }
     .sectionNoticias2 {
         width: 300px;
-        height: 180px;
+        height: 160px;
         gap: 1px;
         margin-top: 20px;
     }
@@ -439,14 +444,14 @@
         height: auto;
     }
     .sectionNoticias2 h2 {
-        font-size: 13px;
+        font-size: 11px;
         margin-top: 5px;
-        width: 93px;
+        width: 96px;
     }
     .sectionNoticias2 p {
-        font-size: 10px;
+        font-size: 8px;
         margin-top: 5px;
-        width: 93px;
+        width: 94px;
     }
     
         /* INDEX */
@@ -527,7 +532,7 @@
         height: auto;
     }
     .barraDePartidos {
-        margin-top: 520px;
+        margin-top: 525px;
     }
     .barraDePartidos img {
         width: 300px;
